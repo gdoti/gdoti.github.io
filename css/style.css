@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+/* reset css */
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+
+/* reset css終わり */
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+}
+.logo2 {
+  float: left;
+  margin-top: 30px;
+}
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  text-shadow: 1px 1px 1px #777;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+
+}
+
+#wrap{
+  clear: both;
+}
+
+.content {
+  width: 960;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+h2 {
+  /* font-family: 'bitter',serif; */
+  font-size: 24px;
+  color: #ffffff;
+  /* border-bottom: 1px solid #cccccc; */
+}
+.icon:before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#nittei {
+  width: 960px;
+  height: auto;
+margin: 0 auto;
+background-image: url(../img/umi001.png);
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;
+background-size:100% 300px;
+}
+
+#nittei table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+ #nittei .content td{
+  width: auto;
+  background-color: #f0f8ff;
+  padding: 12px 0 12px 10px;
+  border: 1px solid #777;
+}
+
+#nittei .content th{
+ width: auto;
+ background-color: #b0c4de;
+ padding: 12px 0 12px 10px;
+ border: 1px solid #777;
+}
+
+#nittei .content th:nth-child(3){
+  width:120px;
+}
+
+
+/*
+#nittei #wrap .content{
+  width: 960px;
+  height: auto;
+}
+*/
+
+#nittei-wrap h2{
+  color: #333;
+}
+
+#nittei-wrap {
+clear: both;
+background-color: #ffffff;
+margin-top: 220px;
+padding: 35px 0;
+}
+/*
+#nittei #wrap .wtable td:nth-child(1) {
+  width:80px;
+}
+#nittei #wrap .wtable th:nth-child(1) {
+  width:80px;
+} */
+
+#nittei-wrap table{
+  width: 100%;
+}
+
+#nittei table td:nth-child(2n+1){
+  font-size: 14px;
+}
+#nittei table td:nth-child(2n){
+  font-size: 10px;
+}
+
+.child1{
+  width: 20%;
+}
+
+ #nittei .child2{
+  width: 7%;
+  text-align: right;
+}
+
+#nittei .child3{
+  width: 120px;
+}
+#nittei .child4{
+ width: 7%;
+}
+
+#nittei .child5{
+ width: 23%;
+}
+
+#nittei .child6{
+ width: 7%;
+ font-size: 8px;
+}
+
+#nittei .child7{
+ width: 23%;
+}
+
+#access {
+  /* width: 960px;
+  height: auto;
+margin: 0 auto; */
+background-image: url(../img/castle002.png);
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;
+background-size: 100% auto;
+/* color: #ffffff;
+text-shadow: 1px 1px 1px #444; */
+}
+
+
+
+#access .content table{
+  float: left;
+}
+
+#access .content th,
+#access .content td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 2.5;
+}
+
+#access .content td {
+  padding-left: 30px;
+}
+
+#access .content iframe {
+  width: 460px;
+  height: 300px;
+  float: right;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#access #wrap .content{
+  width: 960px;
+  height: auto;
+  color: #333;
+}
+
+#access #wrap h2{
+  color: #333;
+}
+
+#access footer{
+  background-color: #ccc;
+  color: #fff;
+}
+
+#aisatu {
+  /* width: 960px;
+  height: auto;
+margin: 0 auto; */
+/* background-image: url(../img/yama960.png);
+background-repeat: no-repeat;
+background-position: top center;
+background-attachment: fixed;
+background-size: cover; */
+color: #333;
+/* text-shadow: 1px 1px 1px #444; */
+}
+#aisatu h2{
+  color: #333;
+}
+
+#aisatu #wrap .content{
+  width: 960px;
+  height: auto;
+}
+
+#aisatu {
+  /* width: 960px;
+  height: auto;
+margin: 0 auto; */
+background-image: url(../img/futaba-bn.png);
+background-repeat: no-repeat;
+background-position: top center;
+background-attachment: fixed;
+background-size: 100% auto;
+/* color: #ffffff;
+text-shadow: 1px 1px 1px #444; */
+}
+
+
+#osirase {
+background-image: url(../img/park.png);
+background-repeat: no-repeat;
+background-position: top center;
+background-attachment: fixed;
+background-size:100% auto;
+color: #333;
+}
+
+#osirase .content table{
+  float: left;
+}
+
+#osirase .content th,
+#osirase .content td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 2.5;
+}
+
+#osirase .content td {
+  padding-left: 30px;
+}
+
+#wrap {
+clear: both;
+background-color: #ffffff;
+margin-top: 220px;
+padding: 35px 0;
+}
+
+#osirase #wrap .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+  #osirase h2{
+    color: #333;
+  }
+
+  #osirase #wrap .content{
+    width: 960px;
+    height: auto;
+  }

@@ -1,44 +1,71 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<html lang=ja dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>HTMLの練習</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>INDEX | 学校医のページ</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body id="osirase">
     <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/futaba2.png" alt="学校医ロゴ">
+        </a>
+      </div>
+      <div class="logo2">
+        <a href="index.html">
+          <img src="img/logo002.png" alt="学校医ロゴ2">
+        </a>
+      </div>
+      <nav>
+        <ul class="global-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aisatu.html">ご挨拶</a></li>
+          <li><a href="nittei.html">行事日程</a></li>
+          <li><a href="access.html">アクセス</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
-      <h1>TITLE1
-      </h1>
-      <p>
-        <div class="main">
-          HELLO! HELLO! HELLO! HELLO! HELLO  HELLO! HELLO! HELLO!
+    <div id="wrap">
+      <div class="content">
+        <h2 class="icon">お知らせ</h2>
+        <p>直近の行事予定です</p>
+        <section class="yotei clearfix">
 
-        </div>
-      </p>
-    </section>
-    <section>
-      <h1>TITLE2
-      </h1>
-      <p>
-        <div class="main">
-          <img src="img/umi001.png" width="160" height="106"alt="海の写真">
 
-          HELLO! HELLO! HELLO! HELLO! HELLO  HELLO! HELLO! HELLO!
-        </div>
-    </p>
-    </section>
-    <section>
-      <h1>TITLE3
-      </h1>
-      <p>
-        <div class="sub">
+        <h3>大阪府学校医会　総会</h3>
+        <table>
+          <tr><th>日付</th><td>2019年7月29日土曜日</td></tr>
+          <tr>
+            <th>時刻</th>
+            <td>午後2時から</td>
+          </tr>
+          <tr><th>場所</th>
+          <td>
+            <a href="http://osaka-shigaku.gr.jp/kaikan/access/">私学会館</a>
+          </td></tr>
+          <tr><th>住所</th>
+          <td><small>
+            〒534-0026
+          </small>
+             大阪府大阪市都島区網島町6-20
+          </td></tr>
+          <tr>
+            <th>電車でのアクセス</th>
+            <td>JR東西線　大阪城北詰　3番出口　徒歩2分<br>
+              京阪電車　京橋駅　徒歩12分</td>
+          </tr>
+          <!-- <tr>
+            <th>お車でのアクセス</th>
+            <td>阪神高速法円坂出口から１km</td>
+          </tr> -->
+        </table>
+</section>
+      </div>
 
-          HELLO! HELLO! HELLO! HELLO! HELLO  HELLO! HELLO! HELLO!
-        </div>
-    </p>
-    </section>
+    </div>
+
+    <footer>&copy gakkoui</footer>
 
   </body>
 </html>
